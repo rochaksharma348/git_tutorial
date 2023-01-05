@@ -13,5 +13,8 @@ public class Hungry {
             System.out.println("go, do your homework");
         }
 
+
+        System.out.println("Thank you for using our app.");
+
     }
 }
