@@ -10,7 +10,13 @@ public class Hungry {
         if (ans.equals("yes")) {
             System.out.println("Eat a samosa");
         } else {
-            System.out.println("go, do your homework");
+            System.out.println("Are you thirsty?");
+            ans = sc.nextLine();
+            if (ans.equals("yes")) {
+                System.out.println("Drink water");
+            } else {
+                System.out.println("go, do your homework");
+            }
         }
     }
 }
