@@ -7,7 +7,7 @@ public class Hungry {
         System.out.println("Are you hungry?");
         String ans = sc.nextLine();
 
-        if (ans.equals("yes")) {
+        if (ans.equals("yes") || ans.equals("haa")) {
             System.out.println("Eat a samosa");
         } else {
             System.out.println("Are you thirsty?");
